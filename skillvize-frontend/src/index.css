@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+* {
+  overflow: visible;
+}
+
+body {
+  margin: 0;
+}
+
+.orb-container {
+  position: relative;
+}
+
+/* Button hover effects */
+button:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+}
